@@ -44,6 +44,18 @@ a {
     z-index: 1;
 }
 
+#main-portfolio {
+    width: 960px;
+    height: 960px;
+    margin: 20px 0px 0px 150px;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color:#ffffff;
+    z-index: 1;
+}
+
+
+
 #body-index {
     background-color: #dddddd;
     z-index: 0;
@@ -63,10 +75,85 @@ a {
 }
 
 .profile-photo {
-    float: left;
+   float:left;
     margin: 0px 15px 0px 10px;
     
 }
+
+.image-left {
+   z-index: 4;
+    margin: 15px 15px 10px 15px;
+    position: relative; 
+    width: 20%;
+}
+
+.image-right {
+    z-index: 4;
+    margin: 15px 15px 10px 15px;
+    width: 20%;
+}
+
+.text-1 {
+        z-index: 5;
+        position: absolute; 
+        top: 315px;
+        left: 177px;
+        text-align: center;
+        width: 152px; 
+        background-color: #4aaaa5;
+        color: whitesmoke;
+        padding: 20px;
+        
+}
+
+.text-2 {
+    z-index: 5;
+        position: absolute; 
+        top: 310px;
+    left: 404px;
+        text-align: center;
+        width: 152px; 
+        background-color: #4aaaa5;
+        color: whitesmoke;
+        padding: 20px;
+}
+
+.text-3 {
+    z-index: 5;
+        position: absolute; 
+        top: 525px;
+    left: 177px;
+        text-align: center;
+        width: 152px; 
+        background-color: #4aaaa5;
+        color: whitesmoke;
+        padding: 20px;
+}
+
+.text-4 {
+    z-index: 5;
+        position: absolute; 
+        top: 506px;
+    left: 404px;
+        text-align: center;
+        width: 152px;
+        background-color: #4aaaa5;
+        color: whitesmoke;
+        padding: 20px;
+}
+
+.text-5 {
+    z-index: 5;
+        position: absolute; 
+        top: 730px;
+    left: 177px;;
+        text-align: center;
+        width: 152px; 
+        background-color: #4aaaa5;
+        color: whitesmoke;
+        padding: 20px;
+}
+
 
 
 h2 {
