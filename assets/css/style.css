@@ -20,6 +20,7 @@
     z-index: 2; 
     margin: -20px 0px 0px 150px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 23px;
     
 }
 
@@ -42,11 +43,22 @@ a {
     border-color: #dddddd;
     background-color:#ffffff;
     z-index: 1;
+    line-height: 1.5;
 }
 
 #main-portfolio {
     width: 960px;
     height: 960px;
+    margin: 20px 0px 0px 150px;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color:#ffffff;
+    z-index: 1;
+}
+
+#main-contact {
+    width: 960px;
+    height: 485px;
     margin: 20px 0px 0px 150px;
     border-style: solid;
     border-color: #dddddd;
@@ -96,7 +108,7 @@ a {
 .text-1 {
         z-index: 5;
         position: absolute; 
-        top: 315px;
+        top: 307px;
         left: 177px;
         text-align: center;
         width: 152px; 
@@ -109,8 +121,8 @@ a {
 .text-2 {
     z-index: 5;
         position: absolute; 
-        top: 310px;
-    left: 404px;
+        top: 307px;
+    left: 403px;
         text-align: center;
         width: 152px; 
         background-color: #4aaaa5;
@@ -121,7 +133,7 @@ a {
 .text-3 {
     z-index: 5;
         position: absolute; 
-        top: 525px;
+        top: 527px;
     left: 177px;
         text-align: center;
         width: 152px; 
@@ -133,19 +145,19 @@ a {
 .text-4 {
     z-index: 5;
         position: absolute; 
-        top: 506px;
-    left: 404px;
+        top: 516px;
+    left: 403px;
         text-align: center;
-        width: 152px;
+        width: 162px;
         background-color: #4aaaa5;
         color: whitesmoke;
-        padding: 20px;
+        padding: 15px;
 }
 
 .text-5 {
     z-index: 5;
         position: absolute; 
-        top: 730px;
+        top: 727px;
     left: 177px;;
         text-align: center;
         width: 152px; 
@@ -188,6 +200,12 @@ h2 {
    line-height: 1.5;
 }
 
+.message-box {
+    resize: none;
+    height: 170px;
+    width: 894px;
+}
+
 .button {
     background-color: #4aaaa5;
     border: none;
@@ -211,6 +229,7 @@ footer {
     border-top-color: #4aaaa5;
     border-top-width: 6px;
     height: 30px;
+    z-index: 6;
 
 }
 
